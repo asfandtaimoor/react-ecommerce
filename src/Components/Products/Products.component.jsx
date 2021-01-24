@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
 
+// Components
 import { ProductsContext } from "../../Global/ProductsContext";
-
+import Product from "../Product/Product.component";
 const Products = () => {
   const { products } = useContext(ProductsContext);
-  console.log(products);
   return (
-    <div className="products">
+    <div className="products mt-5 d-flex flex-wrap  justify-content-around justify-content-md-between">
       {products.map((product) => (
-        <div>Product</div>
+        <Product key={product.id} product={product} />
       ))}
     </div>
   );

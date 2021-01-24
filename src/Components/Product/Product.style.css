@@ -1,0 +1,23 @@
+.product {
+  position: relative;
+}
+
+.status {
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  padding: 8px 16px;
+  color: white;
+}
+
+.product-price {
+  font-size: 30px;
+  margin: 0;
+}
+.primary {
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+}
