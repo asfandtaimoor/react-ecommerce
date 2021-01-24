@@ -7,4 +7,14 @@
 
   background-attachment: fixed;
   background-position: center;
+
+  /* CEnter child element */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  color: white;
+  text-align: center;
 }
