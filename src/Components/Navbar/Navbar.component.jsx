@@ -8,8 +8,8 @@ const Navbar = () => {
         <p className="navbar-brand">Pak Express</p>
       </div>
       <div>
-        <i class="fas fa-cart-plus"></i>
-        <span class="badge rounded-pill ">0</span>
+        <i className="fas fa-cart-plus"></i>
+        <span className="badge rounded-pill ">0</span>
       </div>
     </div>
   );

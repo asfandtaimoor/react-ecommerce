@@ -13,7 +13,7 @@ import shoppingBages from "../images/shopping-bages.jpg";
 
 export const ProductsContext = createContext();
 
-export const ProductContextProvider = () => {
+export const ProductContextProvider = (props) => {
   const [products, setProduct] = useState([
     { id: 1, name: "Dslr", price: 300, image: dslr, status: "hot" },
     { id: 2, name: "Iphone", price: 30, image: iphone, status: "new" },
@@ -32,8 +32,8 @@ export const ProductContextProvider = () => {
     },
   ]);
   return (
-    <ProductsContext.Provider
-      values={{ products: [...products] }}
-    ></ProductsContext.Provider>
+    <ProductsContext.Provider value={{ products: [...products] }}>
+      {props.children}
+    </ProductsContext.Provider>
   );
 };
