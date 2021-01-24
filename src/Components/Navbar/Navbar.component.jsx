@@ -9,7 +9,7 @@ const Navbar = () => {
       </div>
       <div>
         <i class="fas fa-cart-plus"></i>
-        <span class="badge rounded-pill bg-success">0</span>
+        <span class="badge rounded-pill ">0</span>
       </div>
     </div>
   );
