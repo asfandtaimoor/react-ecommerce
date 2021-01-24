@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary-color);
+  padding: 0 20px;
+}
+
+.navbar-brand {
+  font-size: 35px;
+  margin: 0;
+}
+
+.fa-cart-plus {
+  font-size: 40px;
+  margin-right: 20px;
+}
+.badge {
+  font-size: 28px;
+}
